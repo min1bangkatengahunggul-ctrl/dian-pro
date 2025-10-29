@@ -1,0 +1,83 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  background-color: rgb(13, 189, 189);
+  width: 100%;
+  height: 10vh;
+}
+
+.ulbar {
+  background-color: aqua;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.libar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.libar:hover {
+  background-color: green;
+  transition: .5s ease-in-out;
+  transition-delay: .1s;
+  border-radius: 3px;
+}
+
+.abar{
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: Times New Roman;
+}
+.conten {
+  background: url(fobar.JPG);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.aconten {
+  width: 720px;
+  height: 480px;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-family: Times New Roman;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.imgconten {
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+}
+
+.foter {
+  height: 20vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Times New Roman;
+}
+.h1foter {
+  font-size: 40px;
+}
